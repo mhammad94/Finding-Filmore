@@ -1,0 +1,469 @@
+@media (max-width: 425px){
+ 
+
+    body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-empty-box{
+        height: 152px;
+        width: 30px;
+        margin-top: -88px;
+    }
+    .Nav-Bar .container-fluid{
+        height: 145px;
+    }
+    .custom-nav .custom-nav-right-custom-nav-content-heading-upper h3{
+        font-size: 20px;
+    }
+    .custom-nav .custom-nav-right-custom-nav-content-heading-upper span{
+        font-size: 20px !important;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-content-text-lower{
+        margin-top: -27px;
+    }
+
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-content-text-lower p{
+        font-size: 14px;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-content{
+        height: 65px;
+        width: 105px;
+    }
+
+    .custom-nav .custom-nav-left{
+        margin-left: 0px;
+    }
+
+    .custom-nav .custom-nav-left .custom-nav-left-content .custom-nav-left-content-tab{
+        margin-right: 0px;
+    }
+
+    .timeline .timeline-right .timeline-right-heading{
+        margin-right: unset;
+        text-align: center;
+    }
+    .timeline .timeline-right .timeline-right-heading h1{
+        font-size: 50px;
+    }
+
+    .timeline .timeline-right .timeline-right-content p{
+        margin-top: 15px;
+        text-align: center;
+    }
+    .timeline .timeline-right .timeline-right-content .timeline-right-content-btn{
+        text-align: center;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-upper-line{
+        width: 130px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+        width: 80px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right{
+        right: -50px;
+        bottom: 120px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center h1{
+        font-size: 45px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left{
+        bottom: -40px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-bottom{
+        bottom: 10px;
+        left: 10px;
+        padding: 2px 30px 2px 5px;
+    }
+    .timeline #CarouselTest .carousel-control-prev{
+        left: -14px !important;
+        top: 20px !important;
+    }
+    .timeline #CarouselTest .carousel-control-next{
+        right: -12px !important;
+        top: 20px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left h3{
+        font-size: 30px;
+    }
+    .recent-trips{
+        padding: 30px 0px;
+    }
+    .recent-trips .recent-trips-img{
+        position: absolute;
+        top: 0;
+        right: 242px;
+        left: -197px;
+        transition: 0.3s;
+    }
+    .recent-trips .recent-trips-slider-images{
+        position: absolute;
+        left: -175px;
+        top: 22px;
+        right: 266px;
+        transition: 0.8s;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 335px;
+    }
+    .recent-trips .recent-trips-content-slide-main{
+        padding-right: 0px;
+    }
+    .recent-trips .recent-trips-content{
+        margin-top: 365px;
+        padding: 10px 10px 10px 10px;
+
+    }
+    .recent-trips .recent-trips-img-controls{
+        transform: translateY(340px) rotate(90deg);
+        position: relative;
+        left: 20px;
+    }
+    .upcoming-trips{
+        padding: 5px 0px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading h1{
+        font-size: 50px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading{
+        left: -118px;
+        top: -30px;
+        width: 321px;
+        position: absolute;
+        border-bottom: 3px solid #93989c;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading h3{
+        margin-left: 144px;
+    }
+    .upcoming-trips .upcoming-trips-right-content{
+        text-align: center;
+    }
+    .upcoming-trips .upcoming-trips-left-main{
+        height: 300px;
+    }
+    .upcoming-trips .upcoming-trips-left-main::before{
+        height: 300px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-line{
+        width: 170px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-right{
+    transform: rotate( -90deg);
+    position: absolute;
+    right: -88px;
+    bottom: 130px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-right .upcoming-trips-left-main-content-inner-upper-line{
+        width: 130px !important;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center h1{
+        font-size: 50px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left h3{
+        font-size: 30px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left{
+        bottom: -55px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-bottom{
+        padding: 6px 20px 0px 5px;
+    }
+    .footer .footer-bg-img{
+        height: 300px;
+    }
+    .footer .footer-bg-img::before{
+        height: 305px;
+    }
+    .footer .footer-content-logo{
+        display: none !important;
+    }
+    .footer .footer-content-email-icons-main {
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 375px) and (max-width: 424px ){
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right{
+        right: -57px;
+        bottom: 95px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+        width: 65px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center h1{
+        font-size: 40px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left h3 {
+        font-size: 25px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-bottom{
+        padding: 2px 10px 2px 5px;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 286px;
+    }
+    .recent-trips .recent-trips-slider-images{
+    position: absolute;
+    left: -174px;
+    top: 22px;
+    right: 262px;
+    transition: 0.8s;
+    }
+    .recent-trips .recent-trips-img-controls {
+    transform: translateY(280px) rotate(90deg);
+    position: relative;
+    left: 20px;
+    }
+}
+
+@media (max-width: 374px ){
+    .timeline .carousel-slides .carousel-item .carousel-item-content-upper-line{
+        width: 55px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+        width: 45px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right{
+        right: -45px;
+        bottom: 73px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center h1{
+        font-size: 30px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left h3{
+        font-size: 18px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-bottom{
+        bottom: 5px;
+        left: 4px;
+        padding: 1px 7px 0px 2px;
+    }
+    .recent-trips .recent-trips-slider-images{
+        position: absolute;
+        left: -175px;
+        top: 18px;
+        right: 258px;
+        transition: 0.8s;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 237px;
+    }
+    .recent-trips .recent-trips-img-controls{
+        transform: translateY(230px) rotate(90deg);
+        position: relative;
+        left: -39px;
+    }
+    .recent-trips .recent-trips-content{
+        margin-top: 250px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-bottom{
+        bottom: 10px;
+        left: 10px;
+    }
+
+
+}
+
+@media (min-width: 427px) and (max-width:768px){
+    .custom-nav .custom-nav-right-custom-nav-content-heading-upper h3{
+        font-size: 30px;
+    }
+    .custom-nav .custom-nav-right-custom-nav-content-heading-upper span{
+        font-size: 30px !important;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-empty-box{
+        height: 95px;
+        width: 70px;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-content{
+        height: 95px;
+        width: 145px;
+    }
+    .custom-nav .custom-nav-right .custom-nav-right-custom-nav-content-text-lower{
+        margin-top: -20px;
+    }
+    .custom-nav .custom-nav-left .custom-nav-left-content .custom-nav-left-content-tab{
+        margin-right: 20px;
+    }
+    .timeline .timeline-right .timeline-right-heading h1{
+        font-size: 75px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-upper-line{
+        width: 220px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right{
+        right: -89px;
+        bottom: 135px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+        width: 130px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center h1{
+        font-size: 60px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left h3{
+        font-size: 40px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left{
+        bottom: -60px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-bottom{
+        bottom: 20px;
+        left: 25px;
+    }
+    .recent-trips .recent-trips-content-slide-main{
+        padding-right: 0px;
+    }
+    .recent-trips .recent-trips-img{
+        position: absolute;
+        top: 110px;
+        right: 62px;
+        left: -287px;
+        transition: 0.3s;
+    }
+    .recent-trips .recent-trips-slider-images{
+        position: absolute;
+        left: -258px;
+        top: 138px;
+        right: 91px;
+        transition: 0.8s;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 407px;
+    }
+    .recent-trips .recent-trips-img-controls{
+    transform: translateY(400px) rotate(90deg);
+    position: relative;
+    left: 90px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-content p{
+        margin-top: 30px;
+        padding: 5px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading h1{
+        font-size: 55px;
+    }
+    .upcoming-trips .upcoming-trips-right{
+        margin-top: 70px;
+    }
+    .upcoming-trips .upcoming-trips-left-main{
+        height: 380px;
+    }
+    .upcoming-trips .upcoming-trips-left-main::before{
+        height: 380px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-line{
+        width: 245px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-right{
+        transform: rotate( -90deg);
+        position: absolute;
+        right: -120px;
+        bottom: 165px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-right .upcoming-trips-left-main-content-inner-upper-line{
+        width: 200px !important;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center h1{
+        font-size: 70px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left h3{
+        font-size: 40px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left{
+        bottom: -80px;
+    }
+    .upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-bottom{
+        position: absolute;
+        bottom: 30px;
+        left: 25px;
+        padding: 6px 31px 2px 5px;
+        border: 3px solid #FFFf;
+    }
+    .footer .footer-content-logo .footer-content-logo-img{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+        width: 235px !important;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-right{
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -130px;
+        bottom: 182px;
+    }
+    .timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left{
+        bottom: -100px;
+    }
+    .recent-trips .recent-trips-img{
+        right: 132px;
+        left: -331px;
+    }
+    .recent-trips .recent-trips-slider-images{
+        position: absolute;
+        left: -300px;
+        top: 30px;
+        right: 165px;
+        transition: 0.8s;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 457px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading h1{
+        font-size: 65px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-content p{
+        padding: 10px 10px;
+    }
+    .recent-trips .recent-trips-img-controls{
+        transform: translateY(340px) rotate(90deg);
+        position: relative;
+        left: 80px;
+    }
+    
+}
+
+@media(min-width: 1440px) {
+    .recent-trips .recent-trips-img{
+    position: absolute;
+    top: 0;
+    right: 383px;
+    left: -614px;
+    transition: 0.3s;
+    }
+    .recent-trips .recent-trips-slider-images{
+        position: absolute;
+        left: -590px;
+        top: 32px;
+        right: 422px;
+        transition: 0.8s;
+    }
+    .recent-trips .recent-trips-slider-images::before{
+        height: 547px;
+    }
+    .recent-trips .recent-trips-img-controls{
+        transform: translateY(427px) rotate(90deg);
+    position: relative;
+    left: -114px;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading{
+        left: -300px;
+        top: 0px;
+        width: 479px;
+        position: absolute;
+        border-bottom: 3px solid #93989c;
+    }
+    .upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading h3{
+        margin-left: 300px;
+    }
+}

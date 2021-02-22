@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+body{
+    background-color: #d1dce2;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*** Nav Bar (Start) ***/
+.Nav-Bar .container-fluid{
+    height: 250px;
+}
+
+
+.custom-nav .custom-nav-right .custom-nav-right-custom-nav-empty-box{
+    height: 145px;
+    width: 155px;
+    border-right: 2px solid #7a8988;
+    border-bottom: 2px solid #7a8988;
+}
+
+.custom-nav .custom-nav-right-custom-nav-content-heading-upper  h3{
+    color: #253640;
+    font-size: 40px;
+}
+
+.custom-nav .custom-nav-right .custom-nav-right-custom-nav-content{
+    height: 144px;
+    width: 180px;
+    border-bottom: 2px solid #7a8988;
+}
+
+.custom-nav .custom-nav-right .custom-nav-right-custom-nav-content-text-lower{
+    border-left: 2px solid #7a8988;
+    margin-left: -2px;
+}
+
+.custom-nav .custom-nav-left .custom-nav-left-content{
+    border-top: 2px solid #7a8988;
+}
+
+.custom-nav .custom-nav-left .custom-nav-left-content .custom-nav-left-content-tab{
+    margin-right: 60px;
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+
+.custom-nav .custom-nav-left .custom-nav-left-content .custom-nav-left-content-tab:hover{
+    border: 2px solid #7a8988 ;
+}
+
+.custom-nav .custom-nav-left .custom-nav-left-content .custom-nav-left-content-tab a{
+    color: #6e7273;
+}
+
+
+/*** Nav Bar (End) ***/
+
+
+
+.timeline .timeline-right .timeline-right-content p{
+    margin-top: 30px;
+}
+
+.timeline .timeline-right .timeline-right-content .timeline-right-content-btn{
+    font-size: 20px;
+    color: #6e7273 !important;
+}
+
+.timeline .timeline-right .timeline-right-content .timeline-right-content-btn a{
+    color: #6e7273 !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6e7273;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+.timeline .carousel-inner img{
+    width: 100%;
+}
+
+.timeline #CarouselTest .carousel-control-prev{
+    left: 260px !important;
+    top: 460px !important;
+}
+
+.timeline #CarouselTest .carousel-control-next{
+    right: 260px !important;
+    top: 460px !important;
+}
+.timeline #CarouselTest .carousel-indicators{
+    display: none !important;
+}
+.timeline .carousel-slides .carousel-item .carousel-item-img::before {
+    content:'';
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
+} 
+.timeline .carousel-slides .carousel-item .carousel-item-content{
+    position: absolute;
+    top: 0;
+}
+
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-upper-line{
+    background-color: #7a8988;
+    height: 5px;
+    width: 380px;
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-right{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -140px;
+    bottom: 255px;
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-right .carousel-item-content-upper-line{
+    width: 260px !important;
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-center h1{
+    font-size:85px;
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left{
+    transform: rotate(270deg);
+    position: relative;
+    bottom: -120px;
+
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-left h3{
+    font-size: 45px;
+}
+
+.timeline .carousel-slides .carousel-item .carousel-item-content-center .carousel-item-content-center-heading-bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    padding: 6px 60px 2px 5px;
+    border: 3px solid #FFFf;
+}
+
+.timeline .timeline-right .timeline-right-heading {
+    margin-right: -180px;
+    position: relative;
+    z-index: 9;
+}
+
+.timeline .timeline-right .timeline-right-heading h1{
+    font-size: 86px;
+}
+
+
+/**** TimeLine End ****/
+
+
+/*** Recent Trips (Start)***/
+
+.recent-trips .recent-trips-img{
+    position: absolute;
+    top: 0;
+    right: 242px;
+    left: -439px;
+    transition: 0.3s;
+}
+
+.recent-trips .recent-trips-img-controls{
+    transform: translateY(410px) rotate(90deg);
+    position: relative;
+    left: 0px;
+}
+
+.recent-trips a{
+    cursor: pointer;
+}
+
+.recent-trips .recent-trips-content{
+    margin-top: 125px;
+}
+
+.recent-trips .recent-trips-content h1{
+    color: #718a91;
+}
+
+.recent-trips .recent-trips-slider-images{
+    position: absolute;
+    left: -402px;
+    top: 37px;
+    right: 277px;
+    transition: 0.8s;
+}
+
+.recent-trips .recent-trips-content-slide-heading h3{
+    color: #515659;
+}
+
+
+
+.recent-trips .recent-trips-slider-images::before{
+    content:'';
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 505px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 1px;
+}
+
+
+.recent-trips .recent-trips-content-slide-heading{
+    border-bottom: 3px solid #a1abaa;
+    padding: 10px 0px;
+}
+
+.recent-trips .recent-trips-content-slide-main{
+    padding: 20px 0px;
+    padding-right: 175px;
+}
+
+.recent-trips .recent-trips-content-slide-main-para{
+    padding: 30px 0px;
+}
+
+.recent-trips .recent-trips-content-btn a{
+    color: #6e7273 !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6e7273;
+}
+
+.recent-trips .recent-trips-content-btn{
+    font-size: 20px;
+    color: #6e7273 !important;
+}
+
+/*** Recent Trips (End) ***/
+
+
+/*** Upcoming Trips (Start) ***/
+.upcoming-trips{
+    padding: 195px 0px;
+}
+
+.upcoming-trips .upcoming-trips-left-main{
+    background-image: url(/Images/beach-5913606_1920.jpg);
+    width: 100%;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upcoming-trips .upcoming-trips-left-main::before{
+    content:'';
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 510px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-line{
+    background-color: #7a8988;
+    height: 5px;
+    width: 380px;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-right{
+    transform: rotate( -90deg);
+    position: absolute;
+    right: -148px;
+    bottom: 260px;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-right .upcoming-trips-left-main-content-inner-upper-line{
+    width: 260px !important;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left{
+    transform: rotate(270deg);
+    position: relative;
+    bottom: -120px;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    padding: 6px 60px 2px 5px;
+    border: 3px solid #FFFf;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-center h1{
+    font-size: 85px;
+}
+
+.upcoming-trips .upcoming-trips-left-main-content-inner-upper-center-heading-left h3{
+    font-size: 45px;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading{
+    margin-right: -180px;
+    position: relative;
+    z-index: 9;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-heading h1{
+    font-size: 83px;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-content p{
+    margin-top: 30px;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-content-btn{
+    font-size: 20px;
+    color: #6e7273 !important;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-content-btn a{
+    color: #6e7273 !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6e7273;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading{
+    left: -141px;
+    top: 0px;
+    width: 317px;
+    position: absolute;
+    border-bottom: 3px solid #93989c;
+}
+
+.upcoming-trips .upcoming-trips-right .upcoming-trips-right-main-heading h3{
+    margin-left: 140px;
+    color: #515659;
+}
+
+.display-None{
+    display: none;
+    opacity: 0;
+}
+
+.fall{
+    transform: translateY(4rem) scale(0.4) rotateZ(20deg);
+}
+
+/*** Upcoming Trips (End)  ***/
+
+
+/*** Footer (Start)  ***/
+
+.footer .footer-bg-img{
+    background-image: url(/Images/canada-3714656_1920.jpg);
+    width: 100%;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .footer-bg-img::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 345px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+    /* background: rgb(255,255,255); */
+    background: linear-gradient(0deg, rgba(209,220,226,0.14049369747899154) 1%, rgba(255,255,255,0.6166841736694677) 2%, rgba(209,220,226,1) 97%);
+}
+
+
+.footer .footer-content-email-icons-main .footer-content-email-icons h3{
+    color:#555e61;
+    border-bottom: 3px solid  #555e61;
+    margin-bottom: 25px;
+    font-size:20px;
+}
+
+.footer .footer-content-email-icons-main .footer-content-email-icons i{
+    margin-right: 30px;
+    color: #555e61;
+    font-size: 20px
+}
+
+
+.footer .footer-content-email-icons-main .footer-content-email-icons i :hover{
+    color: #718a91;
+}
+
+
+.footer .footer-content-logo .footer-content-logo-img img{
+    object-fit: contain;
+}
+
+
+.footer .footer-content-logo .footer-content-logo-img{
+    width: 210px;
+}
+
