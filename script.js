@@ -9,8 +9,8 @@ const recentSliderimg = document.querySelector('.recent-trips-img');
 const recentSliderinnerImg = document.querySelector('.recent-trips-slider-images-inner');
 
 
-let firstSlide = 2;
-let lastSlide = 3;
+let firstSlide = 55;
+let lastSlide = 55;
 
 const recentSlideChange = function (firstNo, lastNo) {
     const nextSlide = document.querySelector(`.recent-trips-content-slide-main-${firstNo}`);
